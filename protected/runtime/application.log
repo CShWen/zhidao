@@ -1,0 +1,384 @@
+2014/03/24 17:27:04 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii/default/index
+---
+2014/03/24 17:27:48 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/model/index
+---
+2014/03/24 17:28:53 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/model/index
+---
+2014/03/24 17:28:58 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii
+---
+2014/03/24 17:29:01 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii
+---
+2014/03/24 17:29:05 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii
+---
+2014/03/24 17:29:13 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii
+---
+2014/03/24 17:29:44 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii
+---
+2014/03/24 17:33:14 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii/controller/index
+---
+2014/03/24 17:34:05 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii/controller/index
+---
+2014/03/24 17:35:49 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii/module/index
+---
+2014/03/24 17:35:59 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii/controller/index
+---
+2014/03/24 17:36:03 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii/controller/index
+---
+2014/03/24 17:36:08 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii/controller/index
+---
+2014/03/24 17:36:13 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii/controller/index
+---
+2014/03/24 17:36:13 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii/controller/index
+---
+2014/03/24 17:36:17 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii/controller/index
+---
+2014/03/24 17:36:19 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.emulatePrepared" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(220): CComponent->__set('emulatePrepared', true)
+#1 /home/csw/phpws/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#3 /home/csw/phpws/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#4 /home/csw/phpws/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#5 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#6 /home/csw/phpws/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#13 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/zhidao/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/zhidao/index.php?r=gii/controller/index
+---
+2014/03/24 21:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "news".' in /home/csw/phpws/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#1 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/zhidao/index.php?r=news
+---
