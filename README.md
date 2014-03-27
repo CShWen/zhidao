@@ -7,3 +7,6 @@ zhidao
 2.MySQL的以后再写吧，现在刚开始；
 3.吃饱没事干乱写一通。
 4.创建的数据库需要编码要utf8-general-ci，除非你想看一大堆？？？
+5.要将php.ini里面改为以下，后重启apache
+post_max_size = 11M
+upload_max_filesize = 11M

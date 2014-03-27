@@ -37,7 +37,6 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('page_view')); ?>:</b>
 	<?php echo CHtml::encode($data->page_view); ?>
 	<br />
-
 	*/ ?>
 
 </div>

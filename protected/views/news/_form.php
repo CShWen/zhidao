@@ -13,6 +13,7 @@
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
+	'htmlOptions'=>array('enctype'=>'multipart/form-data'),//+
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
@@ -38,12 +39,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'create_time'); ?>
-		<?php echo $form->textField($model,'create_time'); ?>
-		<?php echo $form->error($model,'create_time'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'img_name'); ?>
 		<?php echo $form->textField($model,'img_name',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'img_name'); ?>
@@ -60,6 +55,8 @@
 		<?php echo $form->textField($model,'page_view'); ?>
 		<?php echo $form->error($model,'page_view'); ?>
 	</div>
+	
+<?php echo CHtml::activeFileField($model,'image'); ?>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

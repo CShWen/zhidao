@@ -13,8 +13,9 @@
  * @property string $img_path
  * @property integer $page_view
  */
-class News extends CActiveRecord
+class News extends NewsActiveRecord
 {
+	public $image;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -37,6 +38,10 @@ class News extends CActiveRecord
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, title, content, author, create_time, img_name, img_path, page_view', 'safe', 'on'=>'search'),
+			array('title, content','required'),
+			array('image', 'file', 'allowEmpty'=>true, 'types'=>'jpg, jpeg, gif, png,bmp', 'maxSize'=>1024 * 1024 * 10, 
+					'tooLarge'=>'上传文件超过 10MB或文件类型不符合，无法上传。', // 10MB
+				),
 		);
 	}
 

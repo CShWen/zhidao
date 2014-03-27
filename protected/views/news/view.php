@@ -31,3 +31,6 @@ $this->menu=array(
 		'page_view',
 	),
 )); ?>
+<?php 
+$cpath = Yii::app()->baseUrl.$model->img_path;
+echo CHtml::image($cpath,$model->title,array('width'=>'854px','height'=>'480px')); ?>

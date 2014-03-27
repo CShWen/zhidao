@@ -390,3 +390,903 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/zhidao/index.php?r=news
 ---
+2014/03/26 20:55:09 [error] [exception.CException] exception 'CException' with message 'Alias "ext.imageAttachment.ImageAttachmentBehavior" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/csw/phpws/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(196): YiiBase::import('ext.imageAttach...', true)
+#1 /home/csw/phpws/yii/framework/base/CComponent.php(329): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CComponent.php(298): CComponent->attachBehavior('preview', Array)
+#3 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(396): CComponent->attachBehaviors(Array)
+#4 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(165): CActiveRecord::model('News')
+#5 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(87): CActiveDataProvider->getModel('News')
+#6 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(132): CActiveDataProvider->__construct('News')
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#18 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/zhidao/index.php?r=news
+---
+2014/03/26 21:00:56 [error] [exception.CException] exception 'CException' with message 'Alias "ext.imageAttachment.ImageAttachmentBehavior" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/csw/phpws/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(196): YiiBase::import('ext.imageAttach...', true)
+#1 /home/csw/phpws/yii/framework/base/CComponent.php(329): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CComponent.php(298): CComponent->attachBehavior('preview', Array)
+#3 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(396): CComponent->attachBehaviors(Array)
+#4 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(165): CActiveRecord::model('News')
+#5 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(87): CActiveDataProvider->getModel('News')
+#6 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(125): CActiveDataProvider->__construct('News')
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#18 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/zhidao/index.php?r=news
+---
+2014/03/26 21:01:12 [error] [exception.CException] exception 'CException' with message 'Alias "ext.imageAttachment.ImageAttachmentBehavior" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/csw/phpws/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(196): YiiBase::import('ext.imageAttach...', true)
+#1 /home/csw/phpws/yii/framework/base/CComponent.php(329): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CComponent.php(298): CComponent->attachBehavior('preview', Array)
+#3 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(396): CComponent->attachBehaviors(Array)
+#4 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(165): CActiveRecord::model('News')
+#5 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(87): CActiveDataProvider->getModel('News')
+#6 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(125): CActiveDataProvider->__construct('News')
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#18 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/zhidao/index.php?r=news
+---
+2014/03/26 21:02:01 [error] [exception.CException] exception 'CException' with message 'Alias "ext.imageAttachment.ImageAttachmentBehavior" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/csw/phpws/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(196): YiiBase::import('ext.imageAttach...', true)
+#1 /home/csw/phpws/yii/framework/base/CComponent.php(329): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CComponent.php(298): CComponent->attachBehavior('preview', Array)
+#3 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(396): CComponent->attachBehaviors(Array)
+#4 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(165): CActiveRecord::model('News')
+#5 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(87): CActiveDataProvider->getModel('News')
+#6 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(125): CActiveDataProvider->__construct('News')
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#18 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/zhidao/index.php?r=news
+---
+2014/03/26 21:02:21 [error] [exception.CException] exception 'CException' with message 'Alias "ext.imageAttachment.ImageAttachmentBehavior" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/csw/phpws/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(196): YiiBase::import('ext.imageAttach...', true)
+#1 /home/csw/phpws/yii/framework/base/CComponent.php(329): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CComponent.php(298): CComponent->attachBehavior('preview', Array)
+#3 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(396): CComponent->attachBehaviors(Array)
+#4 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(165): CActiveRecord::model('News')
+#5 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(87): CActiveDataProvider->getModel('News')
+#6 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(125): CActiveDataProvider->__construct('News')
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#18 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/zhidao/index.php?r=news
+---
+2014/03/26 21:04:35 [error] [exception.CException] exception 'CException' with message 'Alias "ext.imageAttachment.ImageAttachmentBehavior" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/csw/phpws/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(196): YiiBase::import('ext.imageAttach...', true)
+#1 /home/csw/phpws/yii/framework/base/CComponent.php(329): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CComponent.php(298): CComponent->attachBehavior('preview', Array)
+#3 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(396): CComponent->attachBehaviors(Array)
+#4 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(165): CActiveRecord::model('News')
+#5 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(87): CActiveDataProvider->getModel('News')
+#6 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(125): CActiveDataProvider->__construct('News')
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#18 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/zhidao/index.php?r=news
+---
+2014/03/26 21:08:03 [error] [exception.CException] exception 'CException' with message 'Alias "ext.imageAttachment.ImageAttachmentBehavior" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/csw/phpws/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(196): YiiBase::import('ext.imageAttach...', true)
+#1 /home/csw/phpws/yii/framework/base/CComponent.php(329): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CComponent.php(298): CComponent->attachBehavior('preview', Array)
+#3 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(396): CComponent->attachBehaviors(Array)
+#4 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(165): CActiveRecord::model('News')
+#5 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(87): CActiveDataProvider->getModel('News')
+#6 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(125): CActiveDataProvider->__construct('News')
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#18 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/zhidao/index.php?r=news
+---
+2014/03/26 21:08:14 [error] [exception.CException] exception 'CException' with message 'Alias "ext.imageAttachment.ImageAttachmentBehavior" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/csw/phpws/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /home/csw/phpws/yii/framework/YiiBase.php(196): YiiBase::import('ext.imageAttach...', true)
+#1 /home/csw/phpws/yii/framework/base/CComponent.php(329): YiiBase::createComponent(Array)
+#2 /home/csw/phpws/yii/framework/base/CComponent.php(298): CComponent->attachBehavior('preview', Array)
+#3 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(396): CComponent->attachBehaviors(Array)
+#4 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(165): CActiveRecord::model('News')
+#5 /home/csw/phpws/yii/framework/web/CActiveDataProvider.php(87): CActiveDataProvider->getModel('News')
+#6 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(125): CActiveDataProvider->__construct('News')
+#7 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#8 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('')
+#17 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#18 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/zhidao/index.php?r=news
+---
+2014/03/26 21:32:38 [error] [exception.CException] exception 'CException' with message 'Property "News.BookImg" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('BookImg')
+#1 /home/csw/phpws/zhidao/protected/views/news/_form.php(61): CActiveRecord->__get('BookImg')
+#2 /home/csw/phpws/yii/framework/web/CBaseController.php(126): require('/home/csw/phpws...')
+#3 /home/csw/phpws/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/csw/phpws...', Array, true)
+#4 /home/csw/phpws/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/csw/phpws...', Array, true)
+#5 /home/csw/phpws/zhidao/protected/views/news/create.php(18): CController->renderPartial('_form', Array)
+#6 /home/csw/phpws/yii/framework/web/CBaseController.php(126): require('/home/csw/phpws...')
+#7 /home/csw/phpws/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/csw/phpws...', Array, true)
+#8 /home/csw/phpws/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/csw/phpws...', Array, true)
+#9 /home/csw/phpws/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(79): CController->render('create', Array)
+#11 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#12 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#22 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/zhidao/index.php?r=news/create
+---
+2014/03/26 21:33:47 [error] [exception.CException] exception 'CException' with message 'Property "News.image" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('image')
+#1 /home/csw/phpws/zhidao/protected/views/news/_form.php(61): CActiveRecord->__get('image')
+#2 /home/csw/phpws/yii/framework/web/CBaseController.php(126): require('/home/csw/phpws...')
+#3 /home/csw/phpws/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/csw/phpws...', Array, true)
+#4 /home/csw/phpws/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/csw/phpws...', Array, true)
+#5 /home/csw/phpws/zhidao/protected/views/news/create.php(18): CController->renderPartial('_form', Array)
+#6 /home/csw/phpws/yii/framework/web/CBaseController.php(126): require('/home/csw/phpws...')
+#7 /home/csw/phpws/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/csw/phpws...', Array, true)
+#8 /home/csw/phpws/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/csw/phpws...', Array, true)
+#9 /home/csw/phpws/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(79): CController->render('create', Array)
+#11 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#12 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#22 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/zhidao/index.php?r=news/create
+---
+2014/03/26 21:43:40 [error] [php] move_uploaded_file(/home/csw/phpws/zhidao/protected/uploads/1b85e7248728a85a400c7cc57e7a7150.jpg): failed to open stream: Permission denied (/home/csw/phpws/yii/framework/web/CUploadedFile.php:198)
+Stack trace:
+#0 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#1 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#3 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/csw/phpws/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#6 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/csw/phpws/yii/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#9 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): NewsController->run()
+#10 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/csw/phpws/zhidao/index.php(13): CWebApplication->run()
+REQUEST_URI=/zhidao/index.php?r=news/create
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 21:44:57 [error] [php] move_uploaded_file(/home/csw/phpws/zhidao/protected/uploads/939bfee316dce15b6c9fe02e1348b934.jpg): failed to open stream: Permission denied (/home/csw/phpws/yii/framework/web/CUploadedFile.php:198)
+Stack trace:
+#0 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#1 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#3 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/csw/phpws/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#6 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/csw/phpws/yii/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#9 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): NewsController->run()
+#10 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/csw/phpws/zhidao/index.php(13): CWebApplication->run()
+REQUEST_URI=/zhidao/index.php?r=news/create
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 21:45:15 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (82)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 21:45:15 [error] [exception.CException] exception 'CException' with message 'Property "News.image" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('image')
+#1 /home/csw/phpws/yii/framework/validators/CFileValidator.php(166): CActiveRecord->__get('image')
+#2 /home/csw/phpws/yii/framework/validators/CValidator.php(213): CFileValidator->validateAttribute(Object(News), 'image')
+#3 /home/csw/phpws/yii/framework/base/CModel.php(159): CValidator->validate(Object(News), NULL)
+#4 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(83): CActiveRecord->save()
+#6 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#7 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#17 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/zhidao/index.php?r=news/create
+HTTP_REFERER=http://localhost/zhidao/index.php?r=news/create
+---
+2014/03/26 21:50:21 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (82)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 21:50:21 [error] [exception.CException] exception 'CException' with message 'Property "News.image" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('image')
+#1 /home/csw/phpws/yii/framework/validators/CFileValidator.php(166): CActiveRecord->__get('image')
+#2 /home/csw/phpws/yii/framework/validators/CValidator.php(213): CFileValidator->validateAttribute(Object(News), 'image')
+#3 /home/csw/phpws/yii/framework/base/CModel.php(159): CValidator->validate(Object(News), NULL)
+#4 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(83): CActiveRecord->save()
+#6 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#7 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#17 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/zhidao/index.php?r=news/create
+HTTP_REFERER=http://localhost/zhidao/index.php?r=news/create
+---
+2014/03/26 21:59:12 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (72)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 21:59:12 [error] [exception.CException] exception 'CException' with message 'Property "News.image" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('image')
+#1 /home/csw/phpws/yii/framework/validators/CFileValidator.php(166): CActiveRecord->__get('image')
+#2 /home/csw/phpws/yii/framework/validators/CValidator.php(213): CFileValidator->validateAttribute(Object(News), 'image')
+#3 /home/csw/phpws/yii/framework/base/CModel.php(159): CValidator->validate(Object(News), NULL)
+#4 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(85): CActiveRecord->save()
+#6 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#7 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#17 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/zhidao/index.php?r=news/create
+HTTP_REFERER=http://localhost/zhidao/index.php?r=news/create
+---
+2014/03/26 22:01:20 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:01:20 [error] [exception.CException] exception 'CException' with message 'Property "News.image" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('image')
+#1 /home/csw/phpws/yii/framework/validators/CFileValidator.php(166): CActiveRecord->__get('image')
+#2 /home/csw/phpws/yii/framework/validators/CValidator.php(213): CFileValidator->validateAttribute(Object(News), 'image')
+#3 /home/csw/phpws/yii/framework/base/CModel.php(159): CValidator->validate(Object(News), NULL)
+#4 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(86): CActiveRecord->save()
+#6 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#7 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#17 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/zhidao/index.php?r=news/create
+HTTP_REFERER=http://localhost/zhidao/index.php?r=news/create
+---
+2014/03/26 22:02:25 [warning] [application] Failed to set unsafe attribute "aimage" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:02:25 [error] [exception.CException] exception 'CException' with message 'Property "News.image" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('image')
+#1 /home/csw/phpws/yii/framework/validators/CFileValidator.php(166): CActiveRecord->__get('image')
+#2 /home/csw/phpws/yii/framework/validators/CValidator.php(213): CFileValidator->validateAttribute(Object(News), 'image')
+#3 /home/csw/phpws/yii/framework/base/CModel.php(159): CValidator->validate(Object(News), NULL)
+#4 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(86): CActiveRecord->save()
+#6 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#7 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#17 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/zhidao/index.php?r=news/create
+HTTP_REFERER=http://localhost/zhidao/index.php?r=news/create
+---
+2014/03/26 22:06:26 [warning] [application] Failed to set unsafe attribute "aimage" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:14:49 [warning] [application] Failed to set unsafe attribute "aimage" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:14:49 [error] [exception.CException] exception 'CException' with message 'Property "News.image" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('image')
+#1 /home/csw/phpws/yii/framework/validators/CFileValidator.php(166): CActiveRecord->__get('image')
+#2 /home/csw/phpws/yii/framework/validators/CValidator.php(213): CFileValidator->validateAttribute(Object(News), 'image')
+#3 /home/csw/phpws/yii/framework/base/CModel.php(159): CValidator->validate(Object(News), NULL)
+#4 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(85): CActiveRecord->save()
+#6 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#7 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#17 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/zhidao/index.php?r=news/create
+HTTP_REFERER=http://localhost/zhidao/index.php?r=news/create
+---
+2014/03/26 22:17:19 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:17:19 [error] [exception.CException] exception 'CException' with message 'Property "News.image" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('image')
+#1 /home/csw/phpws/yii/framework/validators/CFileValidator.php(166): CActiveRecord->__get('image')
+#2 /home/csw/phpws/yii/framework/validators/CValidator.php(213): CFileValidator->validateAttribute(Object(News), 'image')
+#3 /home/csw/phpws/yii/framework/base/CModel.php(159): CValidator->validate(Object(News), NULL)
+#4 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(85): CActiveRecord->save()
+#6 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#7 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#17 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/zhidao/index.php?r=news/create
+HTTP_REFERER=http://localhost/zhidao/index.php?r=news/create
+---
+2014/03/26 22:18:20 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:18:20 [error] [exception.CException] exception 'CException' with message 'Property "News.image" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('image')
+#1 /home/csw/phpws/yii/framework/validators/CFileValidator.php(166): CActiveRecord->__get('image')
+#2 /home/csw/phpws/yii/framework/validators/CValidator.php(213): CFileValidator->validateAttribute(Object(News), 'image')
+#3 /home/csw/phpws/yii/framework/base/CModel.php(159): CValidator->validate(Object(News), NULL)
+#4 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(85): CActiveRecord->save()
+#6 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#7 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#17 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/zhidao/index.php?r=news/create
+HTTP_REFERER=http://localhost/zhidao/index.php?r=news/create
+---
+2014/03/26 22:24:18 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:24:18 [error] [exception.CException] exception 'CException' with message 'Property "News.image" is not defined.' in /home/csw/phpws/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('image')
+#1 /home/csw/phpws/yii/framework/validators/CFileValidator.php(166): CActiveRecord->__get('image')
+#2 /home/csw/phpws/yii/framework/validators/CValidator.php(213): CFileValidator->validateAttribute(Object(News), 'image')
+#3 /home/csw/phpws/yii/framework/base/CModel.php(159): CValidator->validate(Object(News), NULL)
+#4 /home/csw/phpws/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(86): CActiveRecord->save()
+#6 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#7 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#17 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/zhidao/index.php?r=news/create
+HTTP_REFERER=http://localhost/zhidao/index.php?r=news/create
+---
+2014/03/26 22:25:00 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:30:40 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:31:26 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:34:10 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:34:22 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:38:37 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/26 22:46:36 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:17:35 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:19:42 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:20:13 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:23:15 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:24:32 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:27:53 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:41:13 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:42:35 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:43:21 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:44:43 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:46:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/csw/phpws/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/csw/phpws/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/csw/phpws/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/csw/phpws/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/csw/phpws/zhidao/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/zhidao/index.php?r=news/view&
+---
+2014/03/27 00:46:21 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:52:44 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:56:19 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:57:53 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:58:47 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 00:59:02 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 01:00:43 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:00:12 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:00:35 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:04:38 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:04:38 [error] [php] move_uploaded_file(/home/csw/zhidao/images/aa8a8d4dc243e7daff5156e56ef6139d.jpg): failed to open stream: No such file or directory (/home/csw/phpws/yii/framework/web/CUploadedFile.php:198)
+Stack trace:
+#0 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#1 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#3 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/csw/phpws/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#6 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/csw/phpws/yii/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#9 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): NewsController->run()
+#10 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/csw/phpws/zhidao/index.php(13): CWebApplication->run()
+REQUEST_URI=/zhidao/index.php?r=news/create
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (88)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:07:32 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:07:32 [error] [php] Undefined variable: uploadDir (/home/csw/phpws/zhidao/protected/controllers/NewsController.php:79)
+Stack trace:
+#0 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#1 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /home/csw/phpws/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#4 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/csw/phpws/yii/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#7 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): NewsController->run()
+#8 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/csw/phpws/zhidao/index.php(13): CWebApplication->run()
+REQUEST_URI=/zhidao/index.php?r=news/create
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (79)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:07:49 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:07:49 [error] [php] mkdir(): Permission denied (/home/csw/phpws/zhidao/protected/controllers/NewsController.php:106)
+Stack trace:
+#0 /home/csw/phpws/zhidao/protected/controllers/NewsController.php(79): recursionMkDir()
+#1 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#2 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#4 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/csw/phpws/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#7 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/csw/phpws/yii/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#10 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): NewsController->run()
+#11 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/csw/phpws/zhidao/index.php(13): CWebApplication->run()
+REQUEST_URI=/zhidao/index.php?r=news/create
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (106)
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (103)
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (79)
+2014/03/27 09:10:39 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:11:21 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:11:21 [error] [php] mkdir(): Permission denied (/home/csw/phpws/zhidao/protected/controllers/NewsController.php:106)
+Stack trace:
+#0 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#1 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#3 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/csw/phpws/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#6 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/csw/phpws/yii/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#9 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): NewsController->run()
+#10 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/csw/phpws/zhidao/index.php(13): CWebApplication->run()
+REQUEST_URI=/zhidao/index.php?r=news/create
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (106)
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (79)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:36:28 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:36:28 [error] [php] move_uploaded_file(/uploads/7fdab52b68c0cb73eae27abcb848661c.jpg): failed to open stream: No such file or directory (/home/csw/phpws/yii/framework/web/CUploadedFile.php:198)
+Stack trace:
+#0 /home/csw/phpws/yii/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#1 /home/csw/phpws/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#3 /home/csw/phpws/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/csw/phpws/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/csw/phpws/yii/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#6 /home/csw/phpws/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/csw/phpws/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/csw/phpws/yii/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#9 /home/csw/phpws/yii/framework/web/CWebApplication.php(282): NewsController->run()
+#10 /home/csw/phpws/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/csw/phpws/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/csw/phpws/zhidao/index.php(13): CWebApplication->run()
+REQUEST_URI=/zhidao/index.php?r=news/create
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (89)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:42:50 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:46:13 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 09:46:37 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:01:40 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:02:34 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:02:49 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:03:52 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:11:01 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:11:20 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:11:35 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:15:06 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:15:21 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:16:36 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:17:47 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:19:19 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:19:38 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:20:04 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:20:13 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:23:10 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:23:36 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:25:25 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:29:15 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:29:57 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:30:01 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:30:25 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:32:18 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:32:41 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:33:09 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:33:27 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:36:14 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:36:54 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:37:30 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:38:00 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:38:34 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:40:15 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:40:35 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:41:07 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:41:32 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:41:57 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:47:03 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:47:15 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:47:43 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:49:24 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:50:59 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:51:34 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 10:57:57 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 11:02:00 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 11:02:07 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 11:02:30 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)

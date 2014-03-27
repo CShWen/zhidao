@@ -2,12 +2,13 @@
 
 class NewsController extends Controller
 {
+	public $image;
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
-
+	
 	/**
 	 * @return array action filters
 	 */
@@ -70,10 +71,23 @@ class NewsController extends Controller
 		if(isset($_POST['News']))
 		{
 			$model->attributes=$_POST['News'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
-		}
 
+			$uploadImage=CUploadedFile::getInstance($model, 'image');
+			if (is_object ( $uploadImage ) && get_class ( $uploadImage ) === 'CUploadedFile') {
+				$filename = md5 ( uniqid () );
+				$ext = $uploadImage->extensionName;
+				$uploadfile = dirname(Yii::app()->BasePath).'/images/'. $filename . '.' . $ext;
+				$model->img_path = '/images/'. $filename . '.' . $ext;
+				$model->img_name = $filename . '.' . $ext;
+			}
+			
+			if($model->save()){
+				$uploadImage->saveAs ( $uploadfile );
+				$this->redirect(array('view','id'=>$model->id));
+			}
+		}
+		$model->img_path = null;
+		$model->img_name = null;
 		$this->render('create',array(
 			'model'=>$model,
 		));
