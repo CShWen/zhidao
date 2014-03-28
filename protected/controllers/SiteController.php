@@ -2,6 +2,7 @@
 
 class SiteController extends Controller
 {
+// 	public $layout='mainlayout';
 	/**
 	 * Declares class-based actions.
 	 */

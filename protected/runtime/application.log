@@ -1290,3 +1290,6 @@ in /home/csw/phpws/zhidao/index.php (13)
 2014/03/27 11:02:30 [warning] [application] Failed to set unsafe attribute "image" of "News".
 in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
 in /home/csw/phpws/zhidao/index.php (13)
+2014/03/27 14:23:46 [warning] [application] Failed to set unsafe attribute "image" of "News".
+in /home/csw/phpws/zhidao/protected/controllers/NewsController.php (73)
+in /home/csw/phpws/zhidao/index.php (13)
