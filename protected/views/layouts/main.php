@@ -80,28 +80,7 @@
 	</div>	
 
 	<div class="page-header"></div>
-	<div class="row">
-          <div class="item thumbnail col-md-4">
-            <img alt="140x140" src=" img/gw.jpg" class="img-rounded" />
-          </div>
-          <div class="item thumbnail col-md-4">
-            <img alt="140x140" src=" img/Koala.jpg" />
-          </div>
-          <div class="item thumbnail col-md-4">
-            <img alt="140x140" src=" img/DragonMaster Evan.jpg" class="img-rounded" />
-          </div>
-          <div class="item thumbnail col-md-4">
-            <img alt="140x140" src=" img/gw.jpg" class="img-rounded" />
-          </div>
-          <div class="item thumbnail col-md-4">
-            <img alt="140x140" src=" img/Koala.jpg" />
-          </div>
-          <div class="item thumbnail col-md-4">
-            <img alt="140x140" src=" img/DragonMaster Evan.jpg" class="img-rounded" />
-          </div>
-	</div>
 	
-	<div class="page-header"></div>
 	<div class="footer">
 		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
 		All Rights Reserved.<br/>
