@@ -28,11 +28,33 @@
 </head>
 
 <body>
-<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
-      	<a class="navbar-brand" href="#"><div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div></a>
-      </div>
-</div><!-- header -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><?php echo CHtml::encode(Yii::app()->name); ?></a>
+        </div>
+        <div class="navbar-collapse collapse">
+	  <?php $this->widget('zii.widgets.CMenu',array(
+			'items'=>array(
+				array('label'=>'Home', 'url'=>array('/site/index')),
+				array('label'=>'每日必知', 'url'=>array('/project')),
+				array('label'=>'关于', 'url'=>array('/site/page', 'view'=>'about')),
+				array('label'=>'联系我们', 'url'=>array('/site/contact')),
+				array('label'=>'登录', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+				array('label'=>'退出 ('.Yii::app()->user->name.') ？', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+			),
+			'htmlOptions'=>array('class'=>'nav navbar-nav'),
+		)); ?>
+        </div>
+	  </div>
+    </div><!-- header -->
+
 <div class="container" id="page">
 
 	<?php if(isset($this->breadcrumbs)):?>
