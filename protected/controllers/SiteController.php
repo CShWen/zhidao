@@ -30,7 +30,25 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+// 		$this->render('index');
+		$dataProvider=new CActiveDataProvider('News', array(
+				'criteria'=>array(
+						'order'=>'create_time DESC',
+				),
+				'pagination'=>array(
+						'pageSize'=>9,
+				)
+		)
+		);
+		$this->render('index',array(
+				'dataProvider'=>$dataProvider,
+		));
+// 		$criteria = new CDbCriteria() ;
+// 		$criteria -> order = 'create_time DESC';
+// 		$dataProvider=News::model()->findAll( $criteria );
+// 		$this->render('index',array(
+// 				'dataProvider'=>$dataProvider,
+// 		));
 	}
 
 	/**
@@ -106,5 +124,15 @@ class SiteController extends Controller
 	{
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
+	}
+	
+	public function actionView($id)
+	{
+		$model=News::model()->findByPk($id);
+		if($model===null)
+			throw new CHttpException(404,'The requested page does not exist.');
+		$this->render('view',array(
+				'model'=>$model,
+		));
 	}
 }

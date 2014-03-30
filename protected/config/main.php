@@ -8,6 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'知道',
+// 	'homeUrl'=>'/zhidao/news',
 		
 	// preloading 'log' component
 	'preload'=>array(
@@ -74,6 +75,10 @@ return array(
 				*/
 			),
 		),
+// 		'authManager'=>array(
+// 				'class'=>'CDbAuthManager',
+// 				'connectionID'=>'db',
+// 		),
 	),
 
 	// application-level parameters that can be accessed

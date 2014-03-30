@@ -16,7 +16,7 @@
 	'htmlOptions'=>array('enctype'=>'multipart/form-data'),//+
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">带 <span class="required">*</span> 的字段是必填的。</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -38,28 +38,10 @@
 		<?php echo $form->error($model,'author'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'img_name'); ?>
-		<?php echo $form->textField($model,'img_name',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'img_name'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'img_path'); ?>
-		<?php echo $form->textField($model,'img_path',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'img_path'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'page_view'); ?>
-		<?php echo $form->textField($model,'page_view'); ?>
-		<?php echo $form->error($model,'page_view'); ?>
-	</div>
-	
 <?php echo CHtml::activeFileField($model,'image'); ?>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? '发布' : '保存'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

@@ -4,11 +4,11 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="zh-cn" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="吃饱撑着的">
-    <meta name="author" content="CShWen">
-    <link rel="shortcut icon" href="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="吃饱撑着的" />
+    <meta name="author" content="CShWen" />
+    <link rel="shortcut icon" href="" />
     <title>CShWen <?php echo CHtml::encode($this->pageTitle); ?></title>
     <!-- Bootstrap core CSS -->
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css" rel="stylesheet">
@@ -43,9 +43,10 @@
 	  <?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'每日必知', 'url'=>array('/project')),
+				array('label'=>'每日必知', 'url'=>array('/news')),
 				array('label'=>'关于', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'联系我们', 'url'=>array('/site/contact')),
+				array('label'=>'文章管理', 'url'=>array('/news/admin'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'登录', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'退出 ('.Yii::app()->user->name.') ？', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),

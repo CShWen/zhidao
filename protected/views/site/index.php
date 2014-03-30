@@ -1,20 +1,28 @@
-<?php
-/* @var $this SiteController */
 
-$this->pageTitle=Yii::app()->name;
-?>
-
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
-
-<p>Congratulations! You have successfully created your Yii application.</p>
-
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+<div class="row">
+<?php $this->widget('zii.widgets.CListView', array(
+	'dataProvider'=>$dataProvider,
+	'itemView'=>'_view',
+	'summaryText'=>'共{count}条，当前是{page}页。',
+	'emptyText'=>'未找到最新知道哦',
+	'ajaxVar' => '',
+	'itemsCssClass' => '',
+	'loadingCssClass' => '',
+	'pagerCssClass' => '',
+	'template' => '{items}{pager}',
+	'pager'=>array(
+			'cssFile'=>false,
+			'class'=>'CLinkPager',
+			'selectedPageCssClass' => 'active', 
+			'hiddenPageCssClass' => 'disabled',
+			'firstPageLabel'=>'首页',
+			'lastPageLabel'=>'末页',
+			'nextPageLabel'=>'下一页',
+			'prevPageLabel'=>'前一页',
+			'header'=>'',
+			'htmlOptions'=>array('class'=>'navbar-right pagination pagination-lg'),
+			'maxButtonCount' => 5,
+	),
+// 	
+)); ?>
+</div>
