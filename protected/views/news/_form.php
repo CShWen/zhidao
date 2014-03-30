@@ -31,7 +31,10 @@
 		<?php echo $form->textArea($model,'content',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'content'); ?>
 	</div>
-
+	
+<?php $this->widget('application.extensions.tinymce.SladekTinyMce'); ?>
+<script> tinymce.init({selector:'textarea#News_content'}); </script>
+ 
 	<div class="row">
 		<?php echo $form->labelEx($model,'author'); ?>
 		<?php echo $form->textField($model,'author',array('size'=>60,'maxlength'=>128)); ?>

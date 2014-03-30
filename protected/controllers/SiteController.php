@@ -131,8 +131,10 @@ class SiteController extends Controller
 		$model=News::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
+		$model->page_view=$model->page_view+1;
+		$model->update();
 		$this->render('view',array(
-				'model'=>$model,
+			'model'=>$model,
 		));
 	}
 }
