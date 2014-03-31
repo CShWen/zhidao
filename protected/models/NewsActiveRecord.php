@@ -7,4 +7,5 @@ abstract class NewsActiveRecord extends CActiveRecord {
 		}
 		return parent::beforeValidate ();
 	}
+	
 }

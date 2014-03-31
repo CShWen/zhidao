@@ -30,7 +30,6 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-// 		$this->render('index');
 		$dataProvider=new CActiveDataProvider('News', array(
 				'criteria'=>array(
 						'order'=>'create_time DESC',
@@ -43,12 +42,6 @@ class SiteController extends Controller
 		$this->render('index',array(
 				'dataProvider'=>$dataProvider,
 		));
-// 		$criteria = new CDbCriteria() ;
-// 		$criteria -> order = 'create_time DESC';
-// 		$dataProvider=News::model()->findAll( $criteria );
-// 		$this->render('index',array(
-// 				'dataProvider'=>$dataProvider,
-// 		));
 	}
 
 	/**
@@ -131,10 +124,17 @@ class SiteController extends Controller
 		$model=News::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
-		$model->page_view=$model->page_view+1;
-		$model->update();
+		$model->updateByPk($id,array('page_view'=>($model->page_view+1)));
+// 		News::model()->updateByPk($id,array('page_view'=>($model->page_view+1)));
 		$this->render('view',array(
 			'model'=>$model,
+		));
+	}
+	
+	public function actionRank(){
+		$lunbo=News::model()->findAll(array('order'=>'page_view desc','limit' => 10,));
+		$this->render('rank',array(
+				'lunbo'=>$lunbo,
 		));
 	}
 }

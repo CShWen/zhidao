@@ -192,4 +192,5 @@ class NewsController extends Controller
 			Yii::app()->end();
 		}
 	}
+	
 }

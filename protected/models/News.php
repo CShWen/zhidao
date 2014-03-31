@@ -115,4 +115,5 @@ class News extends NewsActiveRecord
 	{
 		return parent::model($className);
 	}
+	
 }

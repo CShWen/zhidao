@@ -30,7 +30,7 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'每日必知', 'url'=>array('/news')),
+				array('label'=>'每日必知', 'url'=>array('/site/rank')),
 				array('label'=>'关于', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'联系我们', 'url'=>array('/site/contact')),
 				array('label'=>'文章管理', 'url'=>array('/news/admin'), 'visible'=>!Yii::app()->user->isGuest),
