@@ -124,11 +124,10 @@ class SiteController extends Controller
 		$model=News::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
-		$model->updateByPk($id,array('page_view'=>($model->page_view+1)));
-// 		News::model()->updateByPk($id,array('page_view'=>($model->page_view+1)));
 		$this->render('view',array(
 			'model'=>$model,
 		));
+		$model->updateByPk($id,array('page_view'=>($model->page_view+1)));
 	}
 	
 	public function actionRank(){

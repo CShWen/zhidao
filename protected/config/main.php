@@ -38,16 +38,15 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		/*
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+				'news'=>'news/index', 
+				'site/<id:\d+>/*'=>'site/view',
 			),
+			'urlSuffix' => '.html',
+			'showScriptName' => false,
 		),
-		*/
 		// uncomment the following to use a MySQL database
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=zhidao_dev',
@@ -67,6 +66,10 @@ return array(
 					'class'=>'CFileLogRoute',
 					'levels'=>'error, warning',
 				),
+// 				array(
+// 						'class'=>'CWebLogRoute',
+// 						'levels'=>'trace',
+// 				),
 				// uncomment the following to show log messages on web pages
 				/*
 				array(

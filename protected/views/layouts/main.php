@@ -9,11 +9,13 @@
     <meta name="description" content="吃饱撑着的" />
     <meta name="author" content="CShWen" />
     <link rel="shortcut icon" href="" />
+	<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+	<script src=" <?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
     <title>CShWen <?php echo CHtml::encode($this->pageTitle); ?></title>
     <!-- Bootstrap core CSS -->
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="navbar-static-top.css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/navbar-static-top.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]>
       <script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script>
@@ -37,7 +39,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><?php echo CHtml::encode(Yii::app()->name); ?></a>
+          <a class="navbar-brand" href="/zhidao/site/index"><?php echo CHtml::encode(Yii::app()->name); ?></a>
         </div>
         <div class="navbar-collapse collapse">
 	  <?php $this->widget('zii.widgets.CMenu',array(
@@ -69,12 +71,8 @@
 	<div class="page-header"></div>
 	
 	<div class="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
+		Copyright &copy; <?php echo date('Y'); ?> by CShWen+Lowstz. 版权所有.<br/>
 	</div><!-- footer -->
 </div>
-	<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
-	<script src=" <?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
 </body>
 </html>

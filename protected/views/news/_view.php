@@ -3,11 +3,40 @@
 /* @var $data News */
 ?>
 
-<div class="thumbnail col-md-4">
-<a href="<?php echo $this->createUrl('news/view',array('id'=>$data->id));?>">
-	<img alt="" style="height: 333px;"
-		src=<?php echo Yii::app()->request->baseUrl; ?><?php echo CHtml::encode($data->img_path); ?> class="img-rounded" />
-	<?php echo CHtml::encode($data->title); ?>
-</a>
-</div>
+<div class="view">
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
+	<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('title')); ?>:</b>
+	<?php echo CHtml::encode($data->title); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('content')); ?>:</b>
+	<?php echo CHtml::encode($data->content); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('author')); ?>:</b>
+	<?php echo CHtml::encode($data->author); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('create_time')); ?>:</b>
+	<?php echo CHtml::encode($data->create_time); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('img_name')); ?>:</b>
+	<?php echo CHtml::encode($data->img_name); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('img_path')); ?>:</b>
+	<?php echo CHtml::encode($data->img_path); ?>
+	<br />
+
+	<?php /*
+	<b><?php echo CHtml::encode($data->getAttributeLabel('page_view')); ?>:</b>
+	<?php echo CHtml::encode($data->page_view); ?>
+	<br />
+	*/ ?>
+
+</div>

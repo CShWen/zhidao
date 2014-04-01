@@ -11,12 +11,14 @@
 					<?php for($i=0;$i<3;$i++) { ?>
 						<?php if($i==0) echo '<div class="item active">';
 								else echo '<div class="item">'; ?>
+			<a href="<?php echo $this->createUrl('site/view',array('id'=>$lunbo[$i]->id));?>">
 							<img class="center-block img-responsive" alt=""
 					src="<?php echo Yii::app()->request->baseUrl; ?><?php echo $lunbo[$i]->img_path;?>" />
-				<div class="carousel-caption">
-					<h4><?php echo $lunbo[$i]->title;?></h4>
+			</a>
+					<div class="carousel-caption">
+						<h4><?php echo $lunbo[$i]->title;?></h4>
+					</div>
 				</div>
-			</div>
 					<?php } ?>
 			</div>
 		<a data-slide="prev" href="#myCarousel" class="left carousel-control">
